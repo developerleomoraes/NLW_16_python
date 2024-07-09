@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS 'links' (
     FOREIGN KEY (trip_id) REFERENCES trips(id)
 );
 
+
 CREATE TABLE IF NOT EXISTS 'participants' (
     id TEXT PRIMARY KEY,
     trip_id TEXT NOT NULL,
